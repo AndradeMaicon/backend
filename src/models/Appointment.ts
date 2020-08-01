@@ -1,4 +1,4 @@
-import { uuid } from 'uuidv4'
+import { uuid } from 'uuidv4';
 
 class Appointments {
   id: string;
