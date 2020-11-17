@@ -22,5 +22,6 @@
     "emitDecoratorMetadata": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
-  }
+  },
+  "exclude": ["coverage", "lcov-report", "block-navigation.js"]
 }
