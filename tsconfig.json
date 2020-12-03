@@ -23,5 +23,5 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "exclude": ["coverage", "lcov-report", "block-navigation.js"]
+  "exclude": ["coverage", "lcov-report", "block-navigation.js", "jest.config.js", "prettier.config.js"]
 }
