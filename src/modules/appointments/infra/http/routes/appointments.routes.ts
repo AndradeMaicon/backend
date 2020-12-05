@@ -21,6 +21,6 @@ appointmentsRouter.post(
   }),
   appointmentsController.create,
 );
-appointmentsRouter.post('/me', providerAppointmentController.index);
+appointmentsRouter.get('/me', providerAppointmentController.index);
 
 export default appointmentsRouter;
