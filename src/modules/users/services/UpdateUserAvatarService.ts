@@ -36,6 +36,8 @@ class UpdateUserAvatarService {
 
     user.avatar = filename;
 
+    console.log(filename);
+
     await this.usersRepository.save(user);
 
     return user;
